@@ -31,7 +31,11 @@
     "resetMocks": false
   },
   "scripts": {
+<<<<<<< HEAD
     "start": "react-scripts start",
+=======
+    "start": "PORT=8081 react-scripts start",
+>>>>>>> origin/master
     "build": "react-scripts build",
     "test": "react-scripts test --json --outputFile=testReport.json --watchAll=false",
     "eject": "react-scripts eject"

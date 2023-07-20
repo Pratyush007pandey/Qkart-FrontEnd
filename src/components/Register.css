@@ -45,11 +45,19 @@
 }
 
 .button {
+<<<<<<< HEAD
   background-color: #00a278 !important;
 }
 
 .button:hover {
   background-color: #00845c !important;
+=======
+    background-color: #00a278 !important;
+}
+
+.button:hover {
+    background-color: #00845c !important;
+>>>>>>> origin/master
 }
 
 @media screen and (min-width: 768px) {

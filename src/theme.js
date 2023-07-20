@@ -2,7 +2,11 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   typography: {
+<<<<<<< HEAD
     fontFamily: "Lato",
+=======
+    fontFamily: "Lato"
+>>>>>>> origin/master
   },
   palette: {
     primary: {

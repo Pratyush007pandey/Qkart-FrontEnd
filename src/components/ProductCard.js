@@ -1,14 +1,27 @@
 import { AddShoppingCartOutlined } from "@mui/icons-material";
+<<<<<<< HEAD
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Button, CardActions, Rating } from "@mui/material";
+=======
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Rating,
+  Typography,
+} from "@mui/material";
+>>>>>>> origin/master
 import React from "react";
 import "./ProductCard.css";
 
 const ProductCard = ({ product, handleAddToCart }) => {
+<<<<<<< HEAD
   const { cost, name, image, rating, _id } = product;
   return (
     <Card className="card" varient="outlined" id={_id}>
@@ -41,6 +54,10 @@ const ProductCard = ({ product, handleAddToCart }) => {
           ADD TO CART
         </Button>
       </CardActions>
+=======
+  return (
+    <Card className="card">
+>>>>>>> origin/master
     </Card>
   );
 };
